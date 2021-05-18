@@ -1,4 +1,4 @@
-[Nezuko chan](https://telegra.ph/file/b9d3f5f87d2175ddb7b79.jpg)
+![Nezuko Chan](https://telegra.ph/file/b9d3f5f87d2175ddb7b79.jpg)
 
 #About
 Hello, I am Nezuko-Chan , An Intelligent ChatBot. If You Are Feeling Lonely, You can Always Come to me and Chat With Me!
