@@ -1,5 +1,7 @@
-# About
-Hello, I am Lycia [リュキア], An Intelligent ChatBot. If You Are Feeling Lonely, You can Always Come to me and Chat With Me!
+[Nezuko chan](https://telegra.ph/file/b9d3f5f87d2175ddb7b79.jpg)
+
+#About
+Hello, I am Nezuko-Chan , An Intelligent ChatBot. If You Are Feeling Lonely, You can Always Come to me and Chat With Me!
 ## How To Host
 The easiest way to deploy this Bot
 • Enter your ```API_ID```,```API_HASH``` And ```TOKEN```.
@@ -8,4 +10,4 @@ The easiest way to deploy this Bot
 ## Credits
 • [Inuka Asith](https://github.com/InukaAsith) for Chatbot Module.
 
-• [Me](https://github.com/Red-Aura) - For Chatbot Inline Module & Voice Chatbot.
+• [red aura](https://github.com/Red-Aura) - For Chatbot Inline Module & Voice Chatbot.
