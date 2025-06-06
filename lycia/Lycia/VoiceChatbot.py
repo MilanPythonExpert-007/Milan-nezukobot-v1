@@ -17,7 +17,7 @@ async def fetch(url):
     return data
 
 async def ai_lycia(url):
-    ai_name = "Lycia.mp3"
+    ai_name = "MilanKiGirlfriend.mp3"
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as resp:
             if resp.status == 200:
@@ -27,14 +27,14 @@ async def ai_lycia(url):
     return ai_name
 
 
-@LYCIA.on_message(filters.command("Lycia"))
+@LYCIA.on_message(filters.command("MilanKiGirlfriend"))
 async def Lycia(_, message):
     if len(message.command) < 2:
-        await message.reply_text("Lycia AI Voice Chatbot")
+        await message.reply_text("MilanKiGirlfriend AI Voice Chatbot")
         return
     text = message.text.split(None, 1)[1]
     lycia = text.replace(" ", "%20")
-    m = await message.reply_text("Lycia Is Best...")
+    m = await message.reply_text("MilanKiGirlfriend Is Best...")
     try:
         L = await fetch(f"https://api.affiliateplus.xyz/api/chatbot?message={lycia}&botname=Lycia&ownername=Pranav&user=1")
         chatbot = L["message"]
@@ -43,7 +43,7 @@ async def Lycia(_, message):
     except Exception as e:
         await m.edit(str(e))
         return
-    await m.edit("Made By @madepranav...")
+    await m.edit("Made By @patelmilan07 ...")
     LyciaVoice = await ai_lycia(VoiceAi)
     await m.edit("Repyping...")
     await message.reply_audio(audio=LyciaVoice, title=chatbot, performer=name)
